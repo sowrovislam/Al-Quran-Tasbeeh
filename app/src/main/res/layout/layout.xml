@@ -18,8 +18,8 @@
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image"
-            android:layout_width="@dimen/_80sdp"
-            android:layout_height="@dimen/_80sdp"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
             android:src="@drawable/icon"
             app:civ_border_color="#FF000000"
             app:civ_border_width="2dp"
@@ -27,16 +27,14 @@
 
 
         <TextView
-            android:layout_gravity="center"
-            android:padding="@dimen/_5sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_20sdp"
-
-            android:text="Al-Quran (Tasbeeh)"
-            android:textSize="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:fontFamily="@font/aladin"
+            android:text="Al-Quran(Tasbeeh)"
             android:textColor="#000000"
-            android:textStyle="bold" />
+            android:textSize="@dimen/_20sdp" />
 
 
 

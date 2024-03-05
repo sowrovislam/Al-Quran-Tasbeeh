@@ -42,21 +42,17 @@
                         app:navigationIcon="@drawable/menubar" />
 
 
-
-
-
-
-
                     <TextView
-                        android:padding="@dimen/_5sdp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginStart="@dimen/_20sdp"
+                        android:fontFamily="@font/aladin"
 
+                        android:padding="@dimen/_5sdp"
                         android:text="Al-Quran (Tasbeeh)"
-                        android:textSize="@dimen/_20sdp"
                         android:textColor="#000000"
+                        android:textSize="@dimen/_20sdp"
                         android:textStyle="bold" />
 
 
